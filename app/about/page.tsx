@@ -35,7 +35,7 @@ export default function AboutPage() {
 
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950 shadow-2xl">
             <Image
-              src="/hatem-physique-2.jpg"
+              src="/hatems-physique.jpg"
               alt="Hatem fitness progress"
               width={700}
               height={900}
