@@ -9,6 +9,7 @@ export default function Home() {
     <Link href="/">Home</Link>
     <Link href="/start">Start Here</Link>
     <Link href="/coaching">Coaching</Link>
+    <Link href="/plan">Plan Generator</Link>
   </div>
 </nav>
       {/* HERO */}
