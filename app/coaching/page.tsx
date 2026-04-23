@@ -20,9 +20,14 @@ export default function CoachingPage() {
           </ul>
         </div>
 
-        <button className="rounded-xl bg-white px-6 py-3 font-semibold text-black">
-          Apply for Coaching
-        </button>
+        <a
+  href="https://forms.gle/V1vUCgn2nhK81Wv47"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block rounded-xl bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
+>
+  Apply for Coaching
+</a>
       </section>
     </main>
   );
