@@ -55,7 +55,7 @@ export default function Home() {
 
   <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950 shadow-2xl">
     <Image
-      src="/hatems-physique.jpg"
+      src="/hatem's-physique.jpg"
       alt="HatemFit fitness progress"
       width={700}
       height={900}
