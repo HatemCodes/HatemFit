@@ -49,29 +49,34 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative">
-  <div className="absolute -inset-6 rounded-[2.5rem] bg-white/15 blur-3xl" />
-  <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-white/30 via-white/5 to-transparent" />
+        <div className="flex items-center justify-center">
+  <div className="max-w-md rounded-[2rem] border border-white/10 bg-gray-950 p-10 shadow-2xl">
 
-  <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950 shadow-2xl">
-    <Image
-      src="/hatem's-physique.jpg"
-      alt="HatemFit fitness progress"
-      width={700}
-      height={900}
-      className="h-[620px] w-full object-cover"
-      priority
-    />
+    <p className="text-sm uppercase tracking-[0.25em] text-gray-500">
+      HatemFit Philosophy
+    </p>
 
-    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10" />
+    <h3 className="mt-4 text-3xl font-bold leading-tight">
+      Discipline creates confidence.
+    </h3>
 
-    <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/10 bg-black/50 p-5 backdrop-blur-md">
-      <p className="text-sm uppercase tracking-[0.25em] text-gray-400">
-        Built through consistency
-      </p>
-      <p className="mt-2 text-2xl font-bold">
-        Discipline over hype.
-      </p>
+    <p className="mt-6 leading-7 text-gray-400">
+      Most beginners don’t need extreme routines.
+      They need a realistic structure they can actually sustain.
+    </p>
+
+    <div className="mt-8 space-y-4">
+      <div className="rounded-xl border border-white/10 bg-black p-4">
+        <p className="font-semibold">Built for beginners</p>
+      </div>
+
+      <div className="rounded-xl border border-white/10 bg-black p-4">
+        <p className="font-semibold">Focused on consistency</p>
+      </div>
+
+      <div className="rounded-xl border border-white/10 bg-black p-4">
+        <p className="font-semibold">Powered by systems & tech</p>
+      </div>
     </div>
   </div>
 </div>
