@@ -1,116 +1,92 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-        <h1 className="text-2xl font-bold">HatemFit</h1>
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-8">
+        <Link href="/" className="text-2xl font-extrabold">
+          HatemFit
+        </Link>
 
-        <div className="flex gap-6 text-sm text-gray-300">
-  <Link href="/">Home</Link>
-  <Link href="/start">Start Here</Link>
-  <Link href="/coaching">Coaching</Link>
-  <Link href="/plan">Plan Generator</Link>
-  <Link href="/about">About</Link>
-</div>
+        <div className="hidden gap-8 text-base font-medium text-gray-300 md:flex">
+          <Link href="/start" className="hover:text-white">
+            Start
+          </Link>
+          <Link href="/about" className="hover:text-white">
+            Story
+          </Link>
+          <Link href="/coaching" className="hover:text-white">
+            Coaching
+          </Link>
+        </div>
       </nav>
 
-      <section className="mx-auto grid min-h-[80vh] max-w-6xl items-center gap-12 px-6 py-12 md:grid-cols-2">
-        <div className="space-y-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gray-400">
-            Fitness × Discipline × Fun
+      <section className="mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-center px-6 py-12">
+        <div className="max-w-4xl">
+          <p className="mb-6 text-lg font-semibold text-gray-400">
+            Fitness for real life.
           </p>
 
-          <h2 className="text-5xl font-extrabold leading-tight md:text-6xl">
-            Build discipline.
+          <h1 className="text-6xl font-black leading-[1.05] tracking-tight md:text-8xl">
+            Train hard.
             <br />
-            Build your body.
-          </h2>
+            Eat well.
+            <br />
+            Live better.
+          </h1>
 
-          <p className="max-w-xl text-lg leading-8 text-gray-300">
-            A fitness system for people who want structure, consistency, and
-            purpose — built by a CS student whose passion is fitness.
+          <p className="mt-8 max-w-2xl text-2xl leading-10 text-gray-300">
+            A simple approach to training, food, discipline, and healthy living.
           </p>
 
-          <div className="flex flex-wrap gap-4">
-  <Link
-    href="/start"
-    className="rounded-xl bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
-  >
-    Start Here
-  </Link>
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <Link
+              href="/start"
+              className="rounded-2xl bg-white px-10 py-5 text-center text-xl font-bold text-black transition hover:bg-gray-200"
+            >
+              Start Here
+            </Link>
 
-  <Link
-    href="/about"
-    className="rounded-xl border border-gray-700 px-6 py-3 font-semibold text-white transition hover:bg-gray-900"
-  >
-    Read My Story
-  </Link>
-
-  <Link
-    href="/plan"
-    className="rounded-xl border border-gray-700 px-6 py-3 font-semibold text-white transition hover:bg-gray-900"
-  >
-    Generate a Plan
-  </Link>
-</div>
+            <Link
+              href="/about"
+              className="rounded-2xl border border-white/20 px-10 py-5 text-center text-xl font-bold text-white transition hover:bg-white hover:text-black"
+            >
+              Read My Story
+            </Link>
+          </div>
         </div>
-
-        <div className="flex items-center justify-center">
-  <div className="max-w-md rounded-[2rem] border border-white/10 bg-gray-950 p-10 shadow-2xl">
-
-    <p className="text-sm uppercase tracking-[0.25em] text-gray-500">
-      HatemFit Philosophy
-    </p>
-
-    <h3 className="mt-4 text-3xl font-bold leading-tight">
-      Discipline creates confidence.
-    </h3>
-
-    <p className="mt-6 leading-7 text-gray-400">
-      Most beginners don’t need extreme routines.
-      They need a realistic structure they can actually sustain.
-    </p>
-
-    <div className="mt-8 space-y-4">
-      <div className="rounded-xl border border-white/10 bg-black p-4">
-        <p className="font-semibold">Built for beginners</p>
-      </div>
-
-      <div className="rounded-xl border border-white/10 bg-black p-4">
-        <p className="font-semibold">Focused on consistency</p>
-      </div>
-
-      <div className="rounded-xl border border-white/10 bg-black p-4">
-        <p className="font-semibold">Powered by systems & tech</p>
-      </div>
-    </div>
-  </div>
-</div>
       </section>
 
-      <section className="mx-auto grid max-w-6xl gap-6 px-6 pb-20 md:grid-cols-3">
-        <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
-          <h3 className="text-xl font-bold">Simple Training</h3>
-          <p className="mt-3 text-gray-400">
-            No overcomplication. Just clear structure for beginners.
+      <section className="mx-auto grid max-w-6xl gap-5 px-6 pb-24 md:grid-cols-3">
+        <Link
+          href="/start"
+          className="rounded-[2rem] border border-white/10 bg-gray-950 p-8 transition hover:bg-white hover:text-black"
+        >
+          <h2 className="text-3xl font-black">Training</h2>
+          <p className="mt-4 text-lg text-gray-400">
+            Simple structure. No overcomplication.
           </p>
-        </div>
+        </Link>
 
-        <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
-          <h3 className="text-xl font-bold">Consistency First</h3>
-          <p className="mt-3 text-gray-400">
-            The goal is not motivation. The goal is repeatable discipline.
+        <Link
+          href="/about"
+          className="rounded-[2rem] border border-white/10 bg-gray-950 p-8 transition hover:bg-white hover:text-black"
+        >
+          <h2 className="text-3xl font-black">My Story</h2>
+          <p className="mt-4 text-lg text-gray-400">
+            How I started and what I learned.
           </p>
-        </div>
+        </Link>
 
-        <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
-          <h3 className="text-xl font-bold">Built With Tech</h3>
-          <p className="mt-3 text-gray-400">
-            A fitness brand built like a product, not just a page.
+        <Link
+          href="/coaching"
+          className="rounded-[2rem] border border-white/10 bg-gray-950 p-8 transition hover:bg-white hover:text-black"
+        >
+          <h2 className="text-3xl font-black">Coaching</h2>
+          <p className="mt-4 text-lg text-gray-400">
+            Build habits that actually last.
           </p>
-        </div>
+        </Link>
       </section>
     </main>
   );
