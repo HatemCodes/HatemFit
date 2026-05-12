@@ -6,31 +6,37 @@ const eras = [
     age: "15",
     title: "The Starting Point",
     image: "/story/age-15.jpg",
-    text: "COMING SOON, Still reflecting on this period of my life.",
+    text: "Coming soon — still reflecting on this period of my life.",
   },
   {
-    age: "16–17",
+    age: "16",
     title: "Trying to Figure It Out",
-    image: "/story/age-16-17.jpg",
-    text: "COMING SOON, Still reflecting on this period of my life (early gym attempts, eating habits, confidence, confusion, discipline, or struggles.)",
+    image: "/story/age-16.jpg",
+    text: "Coming soon — reflecting on early gym attempts, eating habits, confidence, confusion, discipline, and struggles.",
+  },
+  {
+    age: "17",
+    title: "Starting To Take It Seriously",
+    image: "/story/age-17.jpg",
+    text: "Coming soon — reflecting on the phase where fitness started becoming more consistent, but I was still learning what actually mattered.",
   },
   {
     age: "18",
     title: "Building Structure",
     image: "/story/age-18.jpg",
-    text: "COMING SOON, Still reflecting on when things started becoming more serious or consistent (but for the wrong reasons), chasing extremes.",
+    text: "Coming soon — reflecting on when things became more serious and consistent, but sometimes for the wrong reasons and with extreme thinking.",
   },
   {
     age: "19",
     title: "Learning Balance",
     image: "/story/age-19.jpg",
-    text: "COMING SOON: reflecting on this period of my life. training, food, school, discipline, and how my mindset changed.",
+    text: "Coming soon — reflecting on training, food, school, discipline, and how my mindset started changing.",
   },
   {
     age: "20",
     title: "Purposeful Fitness",
     image: "/story/age-20.jpg",
-    text: "COMING SOON, reflecting on this period of my life, what I finally understand about fitness, health, food, and life.",
+    text: "Coming soon — reflecting on what I finally understand about fitness, health, food, discipline, and life.",
   },
 ];
 
@@ -62,7 +68,7 @@ export default function AboutPage() {
             className="grid gap-8 rounded-[2rem] border border-white/10 bg-gray-950 p-6 md:grid-cols-2 md:p-8"
           >
             <div
-              className={`relative min-h-[360px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-black ${
+              className={`relative min-h-[420px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-black ${
                 index % 2 === 1 ? "md:order-2" : ""
               }`}
             >
@@ -70,7 +76,7 @@ export default function AboutPage() {
                 src={era.image}
                 alt={`${era.title} - age ${era.age}`}
                 fill
-                className="object-cover"
+                className="object-contain p-2"
               />
             </div>
 
@@ -108,15 +114,16 @@ export default function AboutPage() {
             <div className="rounded-2xl border border-white/10 bg-black p-5">
               <h3 className="font-bold">Eating Logic</h3>
               <p className="mt-3 text-sm leading-6 text-gray-400">
-                My healthy, satisfying, non-restrictive food approach will be here.
+                My healthy, satisfying, non-restrictive food approach will be
+                here.
               </p>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-black p-5">
               <h3 className="font-bold">Living Logic</h3>
               <p className="mt-3 text-sm leading-6 text-gray-400">
-                My lifestyle, discipline, sleep, balance, and purpose
-                philosophy will be here.
+                My lifestyle, discipline, sleep, balance, and purpose philosophy
+                will be here.
               </p>
             </div>
           </div>
