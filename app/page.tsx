@@ -1,33 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-8">
-        <Link href="/" className="text-2xl font-extrabold">
-          HatemFit
-        </Link>
+      <Navbar />
 
-        <div className="hidden gap-8 text-base font-medium text-gray-300 md:flex">
-          <Link href="/start" className="hover:text-white">
-            Start
-          </Link>
-          <Link href="/about" className="hover:text-white">
-            Story
-          </Link>
-          <Link href="/coaching" className="hover:text-white">
-            Coaching
-          </Link>
-        </div>
-      </nav>
-
-      <section className="mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-center px-6 py-12">
-        <div className="max-w-4xl">
+      <section className="mx-auto grid min-h-[78vh] max-w-6xl items-center gap-12 px-6 py-12 md:grid-cols-2">
+        <div>
           <p className="mb-6 text-lg font-semibold text-gray-400">
             Fitness for real life.
           </p>
 
-          <h1 className="text-6xl font-black leading-[1.05] tracking-tight md:text-8xl">
+          <h1 className="text-6xl font-black leading-[1.05] tracking-tight md:text-7xl">
             Train hard.
             <br />
             Eat well.
@@ -53,6 +39,18 @@ export default function Home() {
             >
               Read My Story
             </Link>
+          </div>
+        </div>
+
+        <div className="hidden md:flex justify-center">
+          <div className="relative h-[560px] w-full max-w-md overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950">
+            <Image
+              src="/hero.jpg"
+              alt="HatemFit lifestyle"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
