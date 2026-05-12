@@ -68,15 +68,16 @@ export default function AboutPage() {
             className="grid gap-8 rounded-[2rem] border border-white/10 bg-gray-950 p-6 md:grid-cols-2 md:p-8"
           >
             <div
-              className={`relative min-h-[420px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-black ${
+              className={`flex min-h-[520px] items-center justify-center rounded-[1.5rem] border border-white/10 bg-black p-4 ${
                 index % 2 === 1 ? "md:order-2" : ""
               }`}
             >
               <Image
                 src={era.image}
                 alt={`${era.title} - age ${era.age}`}
-                fill
-                className="object-contain p-2"
+                width={520}
+                height={680}
+                className="max-h-[620px] w-auto rounded-2xl object-contain"
               />
             </div>
 
