@@ -8,11 +8,12 @@ export default function Home() {
         <h1 className="text-2xl font-bold">HatemFit</h1>
 
         <div className="flex gap-6 text-sm text-gray-300">
-          <Link href="/">Home</Link>
-          <Link href="/start">Start Here</Link>
-          <Link href="/coaching">Coaching</Link>
-          <Link href="/plan">Plan Generator</Link>
-        </div>
+  <Link href="/">Home</Link>
+  <Link href="/start">Start Here</Link>
+  <Link href="/coaching">Coaching</Link>
+  <Link href="/plan">Plan Generator</Link>
+  <Link href="/about">About</Link>
+</div>
       </nav>
 
       <section className="mx-auto grid min-h-[80vh] max-w-6xl items-center gap-12 px-6 py-12 md:grid-cols-2">
