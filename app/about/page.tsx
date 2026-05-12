@@ -61,25 +61,24 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-6xl space-y-10 px-6 pb-20">
+      <section className="mx-auto max-w-6xl space-y-24 px-6 pb-20">
         {eras.map((era, index) => (
           <div
             key={era.age}
-            className="grid gap-8 rounded-[2rem] border border-white/10 bg-gray-950 p-6 md:grid-cols-2 md:p-8"
+            className="grid items-center gap-12 md:grid-cols-2"
           >
             <div
-              className={`flex min-h-[520px] items-center justify-center rounded-[1.5rem] border border-white/10 bg-black p-4 ${
+              className={`flex items-center justify-center ${
                 index % 2 === 1 ? "md:order-2" : ""
               }`}
             >
-              <div className="relative h-[520px] w-[340px] overflow-hidden rounded-2xl">
-                <Image
-                  src={era.image}
-                  alt={`${era.title} - age ${era.age}`}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              <Image
+                src={era.image}
+                alt={`${era.title} - age ${era.age}`}
+                width={380}
+                height={560}
+                className="rounded-2xl object-cover"
+              />
             </div>
 
             <div className="flex flex-col justify-center">
@@ -87,43 +86,50 @@ export default function AboutPage() {
                 Age {era.age}
               </p>
 
-              <h2 className="mt-4 text-3xl font-bold">{era.title}</h2>
+              <h2 className="mt-4 text-4xl font-black leading-tight">
+                {era.title}
+              </h2>
 
-              <p className="mt-6 leading-8 text-gray-400">{era.text}</p>
+              <p className="mt-6 max-w-xl text-lg leading-9 text-gray-400">
+                {era.text}
+              </p>
             </div>
           </div>
         ))}
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-24">
-        <div className="rounded-[2rem] border border-white/10 bg-gray-950 p-8 md:p-10">
+        <div className="border-t border-white/10 pt-16">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
             What I Believe Now
           </p>
 
-          <h2 className="mt-4 text-3xl font-bold">
+          <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight">
             Fitness should make your life better, not consume it.
           </h2>
 
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            <div className="rounded-2xl border border-white/10 bg-black p-5">
-              <h3 className="font-bold">Training Logic</h3>
-              <p className="mt-3 text-sm leading-6 text-gray-400">
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
+            <div>
+              <h3 className="text-2xl font-bold">Training Logic</h3>
+
+              <p className="mt-4 text-lg leading-8 text-gray-400">
                 My current lifting philosophy will be here.
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-black p-5">
-              <h3 className="font-bold">Eating Logic</h3>
-              <p className="mt-3 text-sm leading-6 text-gray-400">
+            <div>
+              <h3 className="text-2xl font-bold">Eating Logic</h3>
+
+              <p className="mt-4 text-lg leading-8 text-gray-400">
                 My healthy, satisfying, non-restrictive food approach will be
                 here.
               </p>
             </div>
 
-            <div className="rounded-2xl border border-white/10 bg-black p-5">
-              <h3 className="font-bold">Living Logic</h3>
-              <p className="mt-3 text-sm leading-6 text-gray-400">
+            <div>
+              <h3 className="text-2xl font-bold">Living Logic</h3>
+
+              <p className="mt-4 text-lg leading-8 text-gray-400">
                 My lifestyle, discipline, sleep, balance, and purpose philosophy
                 will be here.
               </p>
