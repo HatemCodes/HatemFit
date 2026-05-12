@@ -6,31 +6,31 @@ const eras = [
     age: "15",
     title: "The Starting Point",
     image: "/story/age-15.jpg",
-    text: "Write what you were going through mentally, physically, and lifestyle-wise at this age.",
+    text: "COMING SOON, Still reflecting on this period of my life.",
   },
   {
     age: "16–17",
     title: "Trying to Figure It Out",
     image: "/story/age-16-17.jpg",
-    text: "Write about early gym attempts, eating habits, confidence, confusion, discipline, or struggles.",
+    text: "COMING SOON, Still reflecting on this period of my life (early gym attempts, eating habits, confidence, confusion, discipline, or struggles.)",
   },
   {
     age: "18",
     title: "Building Structure",
     image: "/story/age-18.jpg",
-    text: "Write about when things started becoming more serious or consistent.",
+    text: "COMING SOON, Still reflecting on when things started becoming more serious or consistent (but for the wrong reasons), chasing extremes.",
   },
   {
     age: "19",
     title: "Learning Balance",
     image: "/story/age-19.jpg",
-    text: "Write about training, food, school, discipline, and how your mindset changed.",
+    text: "COMING SOON: reflecting on this period of my life. training, food, school, discipline, and how my mindset changed.",
   },
   {
     age: "20",
     title: "Purposeful Fitness",
     image: "/story/age-20.jpg",
-    text: "Write about where you are now and what you finally understand about fitness, health, food, and life.",
+    text: "COMING SOON, reflecting on this period of my life, what I finally understand about fitness, health, food, and life.",
   },
 ];
 
