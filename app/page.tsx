@@ -34,20 +34,27 @@ export default function Home() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Link
-              href="/start"
-              className="rounded-xl bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
-            >
-              Start Here
-            </Link>
+  <Link
+    href="/start"
+    className="rounded-xl bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
+  >
+    Start Here
+  </Link>
 
-            <Link
-              href="/plan"
-              className="rounded-xl border border-gray-700 px-6 py-3 font-semibold text-white transition hover:bg-gray-900"
-            >
-              Generate a Plan
-            </Link>
-          </div>
+  <Link
+    href="/about"
+    className="rounded-xl border border-gray-700 px-6 py-3 font-semibold text-white transition hover:bg-gray-900"
+  >
+    Read My Story
+  </Link>
+
+  <Link
+    href="/plan"
+    className="rounded-xl border border-gray-700 px-6 py-3 font-semibold text-white transition hover:bg-gray-900"
+  >
+    Generate a Plan
+  </Link>
+</div>
         </div>
 
         <div className="flex items-center justify-center">

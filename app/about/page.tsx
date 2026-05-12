@@ -101,22 +101,22 @@ export default function AboutPage() {
             <div className="rounded-2xl border border-white/10 bg-black p-5">
               <h3 className="font-bold">Training Logic</h3>
               <p className="mt-3 text-sm leading-6 text-gray-400">
-                Write your current lifting philosophy here.
+                My current lifting philosophy will be here.
               </p>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-black p-5">
               <h3 className="font-bold">Eating Logic</h3>
               <p className="mt-3 text-sm leading-6 text-gray-400">
-                Write your healthy, filling, non-restrictive food approach here.
+                My healthy, satisfying, non-restrictive food approach will be here.
               </p>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-black p-5">
               <h3 className="font-bold">Living Logic</h3>
               <p className="mt-3 text-sm leading-6 text-gray-400">
-                Write your lifestyle, discipline, sleep, balance, and purpose
-                philosophy here.
+                My lifestyle, discipline, sleep, balance, and purpose
+                philosophy will be here.
               </p>
             </div>
           </div>
