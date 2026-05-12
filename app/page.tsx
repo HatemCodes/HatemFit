@@ -45,7 +45,7 @@ export default function Home() {
         <div className="hidden md:flex justify-center">
           <div className="relative h-[560px] w-full max-w-md overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950">
             <Image
-              src="/hero.jpg"
+              src="story/hero.jpg"
               alt="HatemFit lifestyle"
               fill
               className="object-cover"

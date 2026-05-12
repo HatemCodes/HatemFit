@@ -72,13 +72,14 @@ export default function AboutPage() {
                 index % 2 === 1 ? "md:order-2" : ""
               }`}
             >
-              <Image
-                src={era.image}
-                alt={`${era.title} - age ${era.age}`}
-                width={520}
-                height={680}
-                className="max-h-[620px] w-auto rounded-2xl object-contain"
-              />
+              <div className="relative h-[520px] w-[340px] overflow-hidden rounded-2xl">
+                <Image
+                  src={era.image}
+                  alt={`${era.title} - age ${era.age}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </div>
 
             <div className="flex flex-col justify-center">
