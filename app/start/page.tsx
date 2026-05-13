@@ -32,19 +32,23 @@ export default function StartPage() {
             {
               title: "Stop training from insecurity",
               text: "Don’t let comparison, looksmaxxing, ego, or validation decide your goals.",
+              link: "/philosophy#mindset",
             },
             {
               title: "Eat to feel good",
               text: "Build meals that are filling, healthy, enjoyable, and good enough to kill cravings.",
+              link: "/philosophy#food",
             },
             {
               title: "Stay consistent without extremes",
               text: "No starving. No dirty bulking. No all-or-nothing mindset. Just sustainable habits.",
+              link: "/philosophy#consistency",
             },
           ].map((card) => (
-            <div
+            <a
               key={card.title}
-              className="rounded-[2.5rem] border border-white/10 bg-gray-950 p-8 transition hover:border-white/20"
+              href={card.link}
+              className="rounded-[2.5rem] border border-white/10 bg-gray-950 p-8 transition hover:-translate-y-1 hover:border-white/20"
             >
               <h2 className="text-3xl font-black leading-tight">
                 {card.title}
@@ -53,7 +57,11 @@ export default function StartPage() {
               <p className="mt-6 text-lg leading-8 text-gray-400">
                 {card.text}
               </p>
-            </div>
+
+              <p className="mt-10 text-sm font-semibold uppercase tracking-[0.2em] text-white">
+                Read More →
+              </p>
+            </a>
           ))}
         </div>
 
