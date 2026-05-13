@@ -32,17 +32,17 @@ export default function StartPage() {
             {
               title: "Stop training from insecurity",
               text: "Don’t let comparison, looksmaxxing, ego, or validation decide your goals.",
-              link: "/philosophy#mindset",
+              link: "/philosophy/purpose",
             },
             {
               title: "Eat to feel good",
               text: "Build meals that are filling, healthy, enjoyable, and good enough to kill cravings.",
-              link: "/philosophy#food",
+              link: "/philosophy/eating",
             },
             {
               title: "Stay consistent without extremes",
               text: "No starving. No dirty bulking. No all-or-nothing mindset. Just sustainable habits.",
-              link: "/philosophy#consistency",
+              link: "/philosophy/training",
             },
           ].map((card) => (
             <a
