@@ -36,11 +36,11 @@ const photos = [
 
 export default function GalleryPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="bg-black text-white">
       <Navbar />
 
-      <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="max-w-4xl">
+      <section className="px-6 pt-20">
+        <div className="mx-auto max-w-6xl">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-gray-500">
             Gallery
           </p>
@@ -49,27 +49,38 @@ export default function GalleryPage() {
             The journey.
           </h1>
 
-          <p className="mt-10 text-xl leading-10 text-gray-300">
+          <p className="mt-10 max-w-3xl text-xl leading-10 text-gray-300">
             Different phases. Different mindsets. Different versions of me.
           </p>
         </div>
+      </section>
 
-        <div className="mt-20 columns-1 gap-6 sm:columns-2 lg:columns-3">
-          {photos.map((photo, index) => (
-            <div
-              key={index}
-              className="mb-6 overflow-hidden rounded-[2rem] bg-gray-950"
-            >
-              <Image
-                src={photo}
-                alt={`Gallery image ${index + 1}`}
-                width={800}
-                height={1200}
-                className="h-auto w-full object-cover transition duration-300 hover:scale-[1.02]"
-              />
+      <section className="mt-24">
+        {photos.map((photo, index) => (
+          <div
+            key={index}
+            className="relative flex min-h-screen items-center justify-center overflow-hidden border-b border-white/5"
+          >
+            <Image
+              src={photo}
+              alt={`Gallery image ${index + 1}`}
+              fill
+              className="object-cover opacity-80"
+            />
+
+            <div className="absolute inset-0 bg-black/40" />
+
+            <div className="relative z-10 text-center">
+              <p className="text-sm uppercase tracking-[0.4em] text-gray-300">
+                HatemFit Archive
+              </p>
+
+              <h2 className="mt-6 text-5xl font-black md:text-7xl">
+                Phase {index + 1}
+              </h2>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </section>
     </main>
   );
