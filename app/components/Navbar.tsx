@@ -39,3 +39,10 @@ export default function Navbar() {
     </nav>
   );
 }
+
+<Link
+  href="/gallery"
+  className="rounded-xl px-5 py-3 text-lg font-bold text-gray-300 transition hover:bg-white hover:text-black"
+>
+  Gallery
+</Link>
