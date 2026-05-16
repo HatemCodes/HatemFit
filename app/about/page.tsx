@@ -5,7 +5,11 @@ const eras = [
   {
     age: "15",
     title: "The Starting Point",
-    image: "/story/age-15.jpg",
+    images: [
+      "/story/age-15-1.jpg",
+      "/story/age-15-2.jpg",
+      "/story/age-15-3.jpg",
+    ],
     text: `At 15, I never really cared much about looks. Throughout my childhood, I was always “good-looking enough” to talk to girls or have girlfriends, but what people mostly liked about me was my personality. I was funny, social, and honestly just enjoyed life. Because of that, I ate whatever I wanted and never thought much about my appearance or health.
 
 Then quarantine happened.
@@ -22,7 +26,11 @@ I was willing to do almost anything to change how I looked, which eventually led
   {
     age: "16",
     title: "Trying to Figure It Out",
-    image: "/story/age-16.jpg",
+    images: [
+      "/story/age-16-1.jpg",
+      "/story/age-16-2.jpg",
+      "/story/age-16-3.jpg",
+    ],
     text: `At 16, I became obsessed with losing weight.
 
 I started running constantly and playing a crazy amount of basketball because I wanted to play and look like Steph Curry. I was doing hours of cardio, but I still wasn’t lifting weights at this point.
@@ -45,7 +53,11 @@ But even though I looked “better,” I still wasn’t healthy mentally. Everyt
   {
     age: "17",
     title: "Starting To Take It Seriously",
-    image: "/story/age-17.jpg",
+    images: [
+      "/story/age-17-1.jpg",
+      "/story/age-17-2.jpg",
+      "/story/age-17-3.jpg",
+    ],
     text: `At 17, I moved to Canada, and a completely new insecurity started forming.
 
 I had started going to the gym shortly before moving, but once I got to high school in Canada, the comparison culture became intense. Me and my friends were constantly competing with each other physically, especially as Arab guys where being “big” and muscular was heavily respected.
@@ -68,7 +80,11 @@ I thought getting huge would finally make me confident, but instead I slowly los
   {
     age: "18",
     title: "Losing The Plot",
-    image: "/story/age-18.jpg",
+    images: [
+      "/story/age-18-1.jpg",
+      "/story/age-18-2.jpg",
+      "/story/age-18-3.jpg",
+    ],
     text: `At 18, I honestly lost the plot completely.
 
 I was training hard and trying to become the “big guy,” but I didn’t care about health at all anymore. I thought eating massive amounts of food and lifting hard for one hour a day automatically meant I was healthy and making progress.
@@ -91,7 +107,11 @@ After reaching around 95 kg from being nearly 60 kg before, I barely recognized 
   {
     age: "19",
     title: "Learning Balance",
-    image: "/story/age-19.jpg",
+    images: [
+      "/story/age-19-1.jpg",
+      "/story/age-19-2.jpg",
+      "/story/age-19-3.jpg",
+    ],
     text: `At 19, I slowly started becoming wiser mentally, even though I still wasn’t fully in the right place yet.
 
 This time, instead of starving myself like I did at 16, I simply started removing the extreme habits that were destroying me. I cut out a lot of the junk food, ridiculous portion sizes, and constant overeating.
@@ -118,7 +138,11 @@ For the first time, I started understanding that the way you eat, move, train, a
   {
     age: "20",
     title: "Purposeful Fitness",
-    image: "/story/age-20.jpg",
+    images: [
+      "/story/age-20-1.jpg",
+      "/story/age-20-2.jpg",
+      "/story/age-20-3.jpg",
+    ],
     text: `Now at 20 years old, I honestly feel healthier mentally and physically than I ever have before.
 
 I’m currently around 160 lbs and still slowly cutting toward 155, but for the first time in my life, the process feels easy and sustainable because I’m no longer approaching fitness from extremes.
@@ -170,38 +194,35 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-6xl space-y-24 px-6 pb-20">
-        {eras.map((era, index) => (
-          <div
-            key={era.age}
-            className="grid items-center gap-12 md:grid-cols-2"
-          >
-            <div
-              className={`flex items-center justify-center ${
-                index % 2 === 1 ? "md:order-2" : ""
-              }`}
-            >
-              <Image
-                src={era.image}
-                alt={`${era.title} - age ${era.age}`}
-                width={380}
-                height={560}
-                className="rounded-2xl object-cover"
-              />
-            </div>
+      <section className="mx-auto max-w-6xl space-y-32 px-6 pb-24">
+        {eras.map((era) => (
+          <div key={era.age} className="border-t border-white/10 pt-20">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
+              Age {era.age}
+            </p>
 
-            <div className="flex flex-col justify-center">
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
-                Age {era.age}
-              </p>
+            <h2 className="mt-4 text-5xl font-black leading-tight md:text-6xl">
+              {era.title}
+            </h2>
 
-              <h2 className="mt-4 text-4xl font-black leading-tight">
-                {era.title}
-              </h2>
+            <p className="mt-10 max-w-5xl whitespace-pre-line text-xl leading-10 text-gray-400">
+              {era.text}
+            </p>
 
-              <p className="mt-6 max-w-xl text-lg leading-9 text-gray-400 whitespace-pre-line">
-                {era.text}
-              </p>
+            <div className="mt-14 grid gap-6 md:grid-cols-3">
+              {era.images.map((image, index) => (
+                <div
+                  key={image}
+                  className="relative h-[520px] overflow-hidden rounded-[2rem] bg-gray-950"
+                >
+                  <Image
+                    src={image}
+                    alt={`${era.title} photo ${index + 1}`}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         ))}
