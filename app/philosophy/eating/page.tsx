@@ -2,76 +2,147 @@ import Navbar from "../../components/Navbar";
 
 export default function EatingPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen overflow-hidden bg-black text-white">
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-6 py-20">
-        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-gray-500">
-          Philosophy
-        </p>
+      <section className="relative mx-auto max-w-7xl px-6 py-20">
+        <div className="absolute right-[-100px] top-20 h-72 w-72 rounded-full bg-white/10 blur-[140px]" />
 
-        <h1 className="mt-6 text-6xl font-black leading-[0.95] tracking-tight md:text-8xl">
-          Eating
-          <br />
-          Logic.
-        </h1>
+        <div className="relative z-10 max-w-5xl">
+          <p className="text-sm font-black uppercase tracking-[0.4em] text-gray-500">
+            Philosophy
+          </p>
 
-        <p className="mt-10 max-w-3xl text-xl leading-10 text-gray-300">
-          Healthy eating became sustainable for me once I stopped viewing it as
-          punishment and started building meals I genuinely enjoyed.
-        </p>
+          <h1 className="mt-6 text-6xl font-black leading-[0.9] tracking-tight md:text-8xl">
+            Eating
+            <br />
+            Logic.
+          </h1>
+
+          <p className="mt-10 max-w-3xl text-2xl leading-10 text-gray-300">
+            Healthy eating became sustainable once I stopped viewing it as
+            punishment and started building meals I genuinely enjoyed.
+          </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-5xl border-t border-white/10 px-6 py-20">
-        <div className="space-y-10 text-xl leading-10 text-gray-400">
-          <p>
-            I’ve experienced both extremes when it comes to food.
+      <section className="mx-auto max-w-7xl px-6 pb-28">
+        <div className="border-y border-white/10 py-16">
+          <p className="max-w-5xl text-4xl font-black leading-tight md:text-6xl">
+            The goal is not restriction.
+            <br />
+            The goal is balance.
           </p>
+        </div>
+      </section>
 
-          <p>
-            I almost starved myself trying to become lean, then later completely
-            lost control dirty bulking and binge eating trying to become big.
-          </p>
+      <section className="mx-auto max-w-5xl px-6 pb-32">
+        <div className="space-y-16">
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+              The extremes
+            </p>
 
-          <p>
-            Both phases taught me the same thing: extremes are unsustainable.
-          </p>
+            <p className="mt-6 text-2xl leading-[1.9] text-gray-400">
+              I’ve experienced both extremes when it comes to food.
+            </p>
 
-          <p>
-            What finally changed my relationship with food was learning how to
-            build meals that were healthy, filling, nutritious, and tasted GOOD
-            ENOUGH to satisfy cravings without making me feel terrible after.
-          </p>
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              I almost starved myself trying to become lean, then later
+              completely lost control dirty bulking and binge eating trying to
+              become huge.
+            </p>
+          </div>
 
-          <p>
-            I stopped expecting healthy food to compete with ultra-processed
-            junk engineered to maximize dopamine for five minutes.
-          </p>
+          <div className="rounded-[3rem] border border-white/10 bg-gray-950 p-10">
+            <p className="text-5xl font-black leading-tight md:text-7xl">
+              Extremes are
+              <br />
+              unsustainable.
+            </p>
+          </div>
 
-          <p>
-            Instead, I focused on cooking meals that made me feel energized,
-            satisfied, productive, and mentally clear throughout the day.
-          </p>
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+              What changed
+            </p>
 
-          <p>
-            I also started learning my own triggers. For example, I binge way
-            more when eating while watching YouTube or shows, so mindful eating
-            became important for me.
-          </p>
+            <p className="mt-6 text-2xl leading-[1.9] text-gray-400">
+              Everything changed once I stopped expecting healthy food to
+              compete with ultra-processed junk engineered to maximize dopamine
+              for five minutes.
+            </p>
 
-          <p>
-            My goal now isn’t restriction. It’s balance.
-          </p>
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              Instead, I started building meals that were healthy, filling,
+              nutritious, enjoyable, and tasted GOOD ENOUGH to satisfy cravings
+              without making me feel terrible afterward.
+            </p>
+          </div>
 
-          <p>
-            Restaurants, snacks, desserts, and fast food occasionally are
-            completely fine when approached responsibly. The issue was never one
-            meal — it was my mindset around food.
-          </p>
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+              Food and energy
+            </p>
 
-          <p>
-            Food should fuel your life, not control it.
-          </p>
+            <p className="mt-6 text-2xl leading-[1.9] text-gray-400">
+              I began focusing on how food actually made me feel physically and
+              mentally.
+            </p>
+
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              Better digestion. Better energy. Better productivity. Better mood.
+              Better sleep. Better workouts.
+            </p>
+
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              I realized healthy eating isn’t just about aesthetics. It affects
+              your entire quality of life.
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+              Mindful eating
+            </p>
+
+            <p className="mt-6 text-2xl leading-[1.9] text-gray-400">
+              I also started learning my personal triggers.
+            </p>
+
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              For example, I binge far more when I eat while watching YouTube or
+              shows. Once I became more mindful while eating, I naturally slowed
+              down, felt fuller faster, and enjoyed food more.
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+              Real balance
+            </p>
+
+            <p className="mt-6 text-2xl leading-[1.9] text-gray-400">
+              Restaurants, snacks, desserts, and fast food occasionally are
+              completely fine when approached responsibly.
+            </p>
+
+            <p className="mt-8 text-2xl leading-[1.9] text-gray-400">
+              The issue was never one meal.
+            </p>
+
+            <p className="mt-4 text-5xl font-black leading-tight md:text-7xl">
+              It was my mindset
+              <br />
+              around food.
+            </p>
+          </div>
+
+          <div className="border-t border-white/10 pt-16">
+            <p className="max-w-4xl text-4xl font-black leading-tight md:text-6xl">
+              Food should fuel your life — not control it.
+            </p>
+          </div>
         </div>
       </section>
     </main>
