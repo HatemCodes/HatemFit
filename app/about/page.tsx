@@ -5,27 +5,33 @@ const eras = [
   {
     age: "15",
     title: "The Starting Point",
+    summary:
+      "The first time I felt genuinely insecure about my appearance and started comparing myself to everyone around me.",
     images: [
       "/story/age-15-1.jpg",
       "/story/age-15-2.jpg",
       "/story/age-15-3.jpg",
     ],
-    text: `At 15, I never really cared much about looks. Throughout my childhood, I was always “good-looking enough” to talk to girls or have girlfriends, but what people mostly liked about me was my personality. I was funny, social, and honestly just enjoyed life. Because of that, I ate whatever I wanted and never thought much about my appearance or health.
+    text: `At 15, I never really cared much about looks. Throughout my childhood, I was always “good-looking enough” to talk to girls or have girlfriends, but what people mostly liked about me was my personality. I was funny, social, and honestly just enjoyed life.
+
+Because of that, I ate whatever I wanted and never thought much about my appearance or health.
 
 Then quarantine happened.
 
-For the first time in my life, I gained a lot of weight and became overweight. I was known as the funny guy who could eat a ton, but suddenly I started noticing how different I looked. Around the same time, all the guys around me started glowing up — getting leaner, dressing better, hitting the gym, and looking more masculine and put together.
+For the first time in my life, I gained a lot of weight and became overweight. I was known as the funny guy who could eat a lot, but over time, I started noticing all my friends glowing up. They were dressing better, getting leaner, hitting the gym, and starting to look like men.
 
 Meanwhile, I felt like I was going in the opposite direction.
 
-That was the first time I ever felt genuinely insecure about myself. I hated looking at my stomach and face fat in the mirror, and it slowly started affecting me mentally. I became obsessed with wanting to look better, not for health, but because I felt left behind.
+That was the first time I ever felt genuinely insecure about myself. I hated looking at my stomach and face fat in the mirror. I became obsessed with wanting to look better and prove myself physically.
 
-I was willing to do almost anything to change how I looked, which eventually led me into the extreme phase I entered at 16. At that point, I didn’t care about health at all. I didn’t think about growth, hormones, balance, or long-term consequences. I just wanted the insecurity gone.`,
+I was willing to do almost anything to change how I looked, which eventually led me into the extreme phase I entered at 16.`,
   },
 
   {
     age: "16",
-    title: "Trying to Figure It Out",
+    title: "Trying To Figure It Out",
+    summary:
+      "Extreme restriction, basketball, cardio, and finally seeing abs for the first time.",
     images: [
       "/story/age-16-1.jpg",
       "/story/age-16-2.jpg",
@@ -33,141 +39,148 @@ I was willing to do almost anything to change how I looked, which eventually led
     ],
     text: `At 16, I became obsessed with losing weight.
 
-I started running constantly and playing a crazy amount of basketball because I wanted to play and look like Steph Curry. I was doing hours of cardio, but I still wasn’t lifting weights at this point.
+I was playing basketball constantly and wanted to look and play like Steph Curry, so I was doing insane amounts of cardio through hoops, running, and staying active all day.
 
-The biggest issue was my diet.
+But the biggest thing was my calorie restriction.
 
-I was barely eating. Most days, I only had one meal at night after school, studying, cardio, basketball, and everything else. I was probably eating around 1200–1500 calories while being insanely active every day.
+I was basically eating one meal a day at around 7 or 8 PM after school, studying, cardio, and basketball. Most days I was probably eating around 1200–1500 calories total.
 
-Between June 2021 and early 2022, I went from around 85 kg to nearly 60 kg.
+From around June 2021 to early 2022, I went from roughly 85 kg to around 60 kg.
 
-Mentally, it was a weird phase. Even though I was struggling internally and doing all of this out of insecurity, I also couldn’t believe the transformation. For the first time in my life, I saw abs. I saw my frame lean out. I realized I actually had good genetics, and it shocked me.
+And honestly, when I finally saw abs for the first time, I was shocked.
 
-That phase completely changed my confidence.
+I couldn’t believe I actually had good genetics underneath all the weight I had gained. Even though my mindset was unhealthy and rooted in insecurity, seeing my frame lean out gave me confidence I had never felt before.
 
-I started talking to more girls, going out more, and honestly became a bit of an f-boy for a while because I suddenly felt attractive again after feeling insecure for so long. I was super active, shredded, and lean to the bone at 5’9 and around 60 kg.
+I started talking to more girls again, going out more, and regaining confidence socially. I became extremely lean, super active, and honestly addicted to staying shredded.
 
-But even though I looked “better,” I still wasn’t healthy mentally. Everything I was doing came from insecurity and extreme restriction rather than balance or self-respect.`,
+But mentally, I still wasn’t healthy. I was doing everything out of fear of getting fat again.`,
   },
 
   {
     age: "17",
-    title: "Starting To Take It Seriously",
+    title: "The Dirty Bulk Era",
+    summary:
+      "Moving to Canada, gym culture, ego, comparison, and chasing size for validation.",
     images: [
       "/story/age-17-1.jpg",
       "/story/age-17-2.jpg",
       "/story/age-17-3.jpg",
     ],
-    text: `At 17, I moved to Canada, and a completely new insecurity started forming.
+    text: `At 17, I moved to Canada.
 
-I had started going to the gym shortly before moving, but once I got to high school in Canada, the comparison culture became intense. Me and my friends were constantly competing with each other physically, especially as Arab guys where being “big” and muscular was heavily respected.
+Around that same time, I had just started lifting seriously, and suddenly my insecurity changed completely.
 
-At this point, being lean wasn’t enough for me anymore.
+Before, I only cared about being lean and attractive.
 
-I was still getting attention and doing well socially because I naturally look better leaner, but now I wanted something different. I wanted to be the “big gym guy” that people respected physically, not just the skinny funny guy or the “pretty boy.”
+Now I cared about being big.
 
-That mindset led me into one of the biggest mistakes of my life: extreme dirty bulking.
+In high school, especially around gym culture and Arab friend groups, there was a huge comparison culture around size, strength, and being “the big guy.” I didn’t want to be seen as the skinny lean kid anymore.
 
-I convinced myself I could reach 90 kg lean and stay aesthetic, so I started eating absolutely everything in sight. Massive portions, junk food, force feeding, late-night eating — anything to gain size as fast as possible.
+I wanted to be respected physically.
 
-And honestly, it ruined me.
+So I started dirty bulking aggressively.
 
-I ruined my sleep, productivity, energy, face, and overall health. After some time, I realized I wasn’t even chasing fitness anymore. I was just feeding a new insecurity.
+And honestly, it’s one of the biggest mistakes I’ve ever made.
 
-I thought getting huge would finally make me confident, but instead I slowly lost myself again.`,
+I convinced myself I could get huge without gaining much fat. I started eating absurd amounts of food, force-feeding myself constantly, and ignoring every signal my body was giving me.
+
+I ruined my sleep, productivity, energy, digestion, and appearance.
+
+Eventually, I realized I had simply traded one insecurity for another.`,
   },
 
   {
     age: "18",
     title: "Losing The Plot",
+    summary:
+      "Binging, force-feeding, gym obsession, and realizing bigger wasn’t better.",
     images: [
       "/story/age-18-1.jpg",
       "/story/age-18-2.jpg",
       "/story/age-18-3.jpg",
     ],
-    text: `At 18, I honestly lost the plot completely.
+    text: `At 18, I was at my biggest physically, but probably one of the worst places mentally and physically overall.
 
-I was training hard and trying to become the “big guy,” but I didn’t care about health at all anymore. I thought eating massive amounts of food and lifting hard for one hour a day automatically meant I was healthy and making progress.
+I was eating until I felt sick almost every night.
 
-In reality, I was just binge eating constantly.
+I thought I was “bulking,” but realistically I was just unhealthy.
 
-I was eating until I felt sick almost every night. My body clearly didn’t want to be that heavy, but I kept forcing it because I thought bigger automatically meant better.
+I trained hard in the gym, but outside of that, I felt terrible. I was constantly tired, taking naps, having terrible digestion, and just felt heavy all the time.
 
-Physically and mentally, I felt terrible.
+Even though I was stronger, I didn’t actually feel healthier or happier.
 
-I was constantly tired, taking naps every day, feeling sluggish after meals, ruining my sleep, and honestly damaging my body trying to chase this image of being huge. Even though I was stronger physically, deep down I didn’t feel healthy or confident at all.
+Eventually I looked at myself and realized I had completely lost the plot.
 
-At one point, I looked in the mirror and genuinely felt disgusted with myself again.
+I had gone from starving myself to force-feeding myself. Both extremes came from insecurity and comparison.
 
-I couldn’t believe how far I had swung from one extreme to another. First I almost starved myself to become skinny, then I completely lost control trying to become big.
-
-After reaching around 95 kg from being nearly 60 kg before, I barely recognized myself physically or mentally anymore.`,
+That realization eventually pushed me to finally start changing for the right reasons.`,
   },
 
   {
     age: "19",
     title: "Learning Balance",
+    summary:
+      "Finally understanding health, consistency, digestion, energy, and sustainable habits.",
     images: [
       "/story/age-19-1.jpg",
       "/story/age-19-2.jpg",
       "/story/age-19-3.jpg",
     ],
-    text: `At 19, I slowly started becoming wiser mentally, even though I still wasn’t fully in the right place yet.
+    text: `At 19, everything slowly started changing mentally.
 
-This time, instead of starving myself like I did at 16, I simply started removing the extreme habits that were destroying me. I cut out a lot of the junk food, ridiculous portion sizes, and constant overeating.
+This time, instead of starving myself like before, I simply cleaned up my eating habits and stopped the extreme binge eating.
 
-The weight started dropping quickly and steadily because my body honestly never wanted to be that big in the first place.
+I started eating foods that actually made me feel good physically.
 
-As I leaned out again, everything started improving.
+I became more active naturally, stayed consistent in the gym, improved my sleep, and slowly lost weight without doing anything extreme.
 
-I had more energy, slept better, stopped needing naps every day, became more productive, moved more throughout the day, and honestly just felt healthier overall.
+And honestly, my body responded incredibly fast because deep down, it never wanted to be that overweight.
 
-This was also when I started becoming more mindful about food instead of emotional about it.
+As I leaned out again, I started realizing something important:
 
-I began loosely tracking protein and calories, cooking meals that actually tasted good while still making me feel healthy, and learning what foods and habits genuinely worked for my body.
+Being healthy affects EVERYTHING.
 
-By summer 2025, I had gone from around 220 lbs down to about 173 lbs, and the difference physically and mentally was huge. I had visible abs again, more definition, more confidence, and overall felt happier when I looked in the mirror.
+My energy improved.
+My digestion improved.
+My mood improved.
+My confidence improved.
+My productivity improved.
 
-But the biggest change wasn’t physical anymore.
+I stopped needing naps constantly and started feeling alive again.
 
-I started realizing how beautiful and realistic healthy living actually is when done with balance. I realized there was no reason for me, as a capable young man with access to health, movement, food, and knowledge, to willingly feel terrible all the time.
-
-For the first time, I started understanding that the way you eat, move, train, and live affects not only your body, but also your mind, energy, discipline, and even your soul.`,
+This was also when I started learning what foods my body tolerated well, what routines made me happy, and how important balance actually is.`,
   },
 
   {
     age: "20",
     title: "Purposeful Fitness",
+    summary:
+      "Training for health, discipline, longevity, confidence, and purpose instead of insecurity.",
     images: [
       "/story/age-20-1.jpg",
       "/story/age-20-2.jpg",
       "/story/age-20-3.jpg",
     ],
-    text: `Now at 20 years old, I honestly feel healthier mentally and physically than I ever have before.
+    text: `Now at 20, I finally feel mentally and physically healthier than ever before.
 
 I’m currently around 160 lbs and still slowly cutting toward 155, but for the first time in my life, the process feels easy and sustainable because I’m no longer approaching fitness from extremes.
 
 I’m not starving myself.
-I’m not force feeding myself.
-I’m not “dieting” in the miserable restrictive way I used to think dieting had to be.
+I’m not force-feeding myself.
 
-I simply move a lot, train consistently, and eat filling, nutritious foods that taste GOOD ENOUGH to satisfy me while still making me feel energized, healthy, and productive throughout the day.
-
-That “good enough” mindset changed everything for me.
-
-I realized most ultra-processed junk food is engineered to taste amazing for five minutes and then leave you feeling terrible afterward. Meanwhile, healthy food can actually taste incredible when you learn how to cook properly and stop expecting every meal to feel like a dopamine hit.
+I’m eating foods that are nutritious, filling, enjoyable, and “good enough” to satisfy cravings without destroying how I feel afterward.
 
 I also started identifying my personal habits and triggers.
 
-For example, I realized I binge way more when I eat while watching YouTube or shows, so now I try to eat more mindfully without constant stimulation. When I do that, I naturally slow down, enjoy food more, and actually notice when I’m full.
+For example, I realized I binge far less when I eat without watching YouTube or shows. I learned that slowing down and actually focusing on food makes me feel fuller, happier, and healthier.
 
-More importantly, my entire mindset around fitness changed.
+Mentally, everything feels clearer now.
 
-I stopped seeing the gym as a place to chase validation or prove myself to other people. Now I see it as a healthy hobby, a form of discipline, a way to honor the body and health God blessed me with, and a way to improve myself physically and mentally for my future, my family, and my future wife.
+I stopped seeing the gym as a place to chase validation and started seeing it as a way to honor the body God gave me.
 
-I want to look good, yes — but not out of insecurity anymore.
+I still want to look good, but not out of insecurity anymore.
 
-I want to feel healthy, energetic, productive, capable, disciplined, and confident. I want food to fuel my life instead of controlling it. I want fitness to improve my life instead of consuming it.
+I want to feel healthy, energetic, capable, disciplined, and confident. I want fitness to improve my future, my family, my mental health, and my longevity.
 
 And honestly, I can’t wait to share everything I’ve learned throughout this journey.`,
   },
@@ -178,46 +191,61 @@ export default function AboutPage() {
     <main className="min-h-screen bg-black text-white">
       <Navbar />
 
-      <section className="mx-auto max-w-6xl px-6 py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gray-400">
-          My Story
-        </p>
+      <section className="mx-auto max-w-6xl px-6 py-20">
+        <div className="max-w-5xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-gray-500">
+            My Story
+          </p>
 
-        <h1 className="mt-6 max-w-4xl text-5xl font-extrabold leading-tight md:text-6xl">
-          From figuring it out to building a lifestyle.
-        </h1>
+          <h1 className="mt-6 text-6xl font-black leading-[0.95] tracking-tight md:text-8xl">
+            Different phases.
+            <br />
+            Different mindsets.
+            <br />
+            Different versions of me.
+          </h1>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-300">
-          This page is the personal side of HatemFit — the years of learning,
-          mistakes, training, eating, confidence, discipline, and the mindset
-          shifts that shaped how I see fitness today.
-        </p>
+          <p className="mt-10 max-w-3xl text-xl leading-10 text-gray-300">
+            This is the honest story behind HatemFit — the insecurities,
+            mistakes, dirty bulks, starvation phases, mindset shifts, and
+            lessons that eventually taught me what healthy fitness actually
+            looks like.
+          </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-6xl space-y-32 px-6 pb-24">
+      <section className="mx-auto max-w-6xl space-y-40 px-6 pb-32">
         {eras.map((era) => (
-          <div key={era.age} className="border-t border-white/10 pt-20">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
-              Age {era.age}
-            </p>
+          <div key={era.age}>
+            <div className="max-w-4xl">
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gray-500">
+                Age {era.age}
+              </p>
 
-            <h2 className="mt-4 text-5xl font-black leading-tight md:text-6xl">
-              {era.title}
-            </h2>
+              <h2 className="mt-5 text-5xl font-black md:text-7xl">
+                {era.title}
+              </h2>
 
-            <p className="mt-10 max-w-5xl whitespace-pre-line text-xl leading-10 text-gray-400">
-              {era.text}
-            </p>
+              <p className="mt-8 max-w-3xl text-2xl leading-10 text-gray-300">
+                {era.summary}
+              </p>
 
-            <div className="mt-14 grid gap-6 md:grid-cols-3">
+              <div className="mt-12">
+                <p className="text-xl leading-[2.2] text-gray-400 whitespace-pre-line">
+                  {era.text}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-16 grid gap-6 md:grid-cols-3">
               {era.images.map((image, index) => (
                 <div
-                  key={image}
-                  className="relative h-[520px] overflow-hidden rounded-[2rem] bg-gray-950"
+                  key={index}
+                  className="relative aspect-[3/4] overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950"
                 >
                   <Image
                     src={image}
-                    alt={`${era.title} photo ${index + 1}`}
+                    alt={`${era.title} image ${index + 1}`}
                     fill
                     className="object-cover"
                   />
@@ -226,47 +254,6 @@ export default function AboutPage() {
             </div>
           </div>
         ))}
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 pb-24">
-        <div className="border-t border-white/10 pt-16">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
-            What I Believe Now
-          </p>
-
-          <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight">
-            Fitness should make your life better, not consume it.
-          </h2>
-
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
-            <div>
-              <h3 className="text-2xl font-bold">Training Logic</h3>
-
-              <p className="mt-4 text-lg leading-8 text-gray-400">
-                Train to become healthier, stronger, more disciplined, and more
-                capable — not to obsess over validation.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold">Eating Logic</h3>
-
-              <p className="mt-4 text-lg leading-8 text-gray-400">
-                Healthy food should taste good, satisfy you, fuel your life, and
-                improve your health without feeling restrictive.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold">Living Logic</h3>
-
-              <p className="mt-4 text-lg leading-8 text-gray-400">
-                Good sleep, movement, discipline, balance, faith, and purpose
-                create a healthier and happier life overall.
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
   );
