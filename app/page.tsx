@@ -131,7 +131,7 @@ export default function Home() {
           <div className="grid overflow-hidden rounded-[3rem] border border-white/10 bg-gray-950 md:grid-cols-2">
             <div className="relative min-h-[520px]">
               <Image
-                src="/story/age-20-1.jpg"
+                src="/story/age-20-3.jpg"
                 alt="Current HatemFit progress"
                 fill
                 className="object-cover"
