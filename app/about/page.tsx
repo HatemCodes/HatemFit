@@ -68,7 +68,7 @@ But mentally, I still wasn’t healthy. I was doing everything out of fear of ge
     ],
     text: `Shortly before turning 17, I moved to Canada.
 
-I had just started lifting seriously, and suddenly my insecurity changed completely.
+I had just started lifting, and suddenly my insecurity changed completely.
 
 Before, I only cared about being lean and attractive.
 
