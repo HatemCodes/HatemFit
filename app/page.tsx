@@ -77,7 +77,7 @@ export default function Home() {
         <section className="mx-auto max-w-7xl px-6 pb-24">
           <div className="border-y border-white/10 py-14">
             <p className="max-w-5xl text-4xl font-black leading-tight md:text-6xl">
-              Fitness should make your life better — not become another
+              Fitness should make your life better, not become another
               insecurity.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
           {[
             {
               title: "Purpose",
-              text: "Train for health, discipline, confidence, and your future — not insecurity.",
+              text: "Train for health, discipline, confidence, and your future, not insecurity.",
               link: "/philosophy/purpose",
             },
             {
