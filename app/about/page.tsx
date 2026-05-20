@@ -66,9 +66,9 @@ But mentally, I still wasn’t healthy. I was doing everything out of fear of ge
       "/story/age-17-2.jpg",
       "/story/age-17-3.jpg",
     ],
-    text: `At 17, I moved to Canada.
+    text: `Shortly before turning 17, I moved to Canada.
 
-Around that same time, I had just started lifting seriously, and suddenly my insecurity changed completely.
+I had just started lifting seriously, and suddenly my insecurity changed completely.
 
 Before, I only cared about being lean and attractive.
 
