@@ -86,7 +86,7 @@ I convinced myself I could get huge without gaining much fat. I started eating a
 
 I ruined my sleep, productivity, energy, digestion, and appearance.
 
-Eventually, I realized I had simply traded one insecurity for another.`,
+Looking back, I realize I had simply traded one insecurity for another.`,
   },
 
   {
