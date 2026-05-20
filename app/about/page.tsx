@@ -134,7 +134,7 @@ I started eating foods that actually made me feel good physically.
 
 I became more active naturally, stayed consistent in the gym, improved my sleep, and slowly lost weight without doing anything extreme.
 
-And honestly, my body responded incredibly fast because deep down, it never wanted to be that overweight.
+And honestly, my body responded incredibly fast because it never wanted to be that overweight.
 
 As I leaned out again, I started realizing something important:
 
