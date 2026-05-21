@@ -3,22 +3,22 @@ import Navbar from "../../components/Navbar";
 
 const foodImages = [
   {
-    src: "/philosophy/eating/pancakes.jpg",
+    src: "app/philosophy/eating/pancakes.jpg",
     title: "Comfort food breakfast",
     text: "High-protein meals that still feel satisfying.",
   },
   {
-    src: "/philosophy/eating/chicken.jpg",
+    src: "app/philosophy/eating/chicken.jpg",
     title: "Homemade meals",
     text: "Real food, big portions, strong macros, and no misery.",
   },
   {
-    src: "/philosophy/eating/creami.jpg",
+    src: "app/philosophy/eating/creami.jpg",
     title: "Better desserts",
     text: "Healthier alternatives that still kill cravings.",
   },
   {
-    src: "/philosophy/eating/restaurant.jpg",
+    src: "app/philosophy/eating/restaurant.jpg",
     title: "Real life balance",
     text: "Restaurants and gatherings are fine when you don’t go ballistic.",
   },
