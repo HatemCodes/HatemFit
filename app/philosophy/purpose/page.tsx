@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navbar from "../../components/Navbar";
 
 export default function PurposePage() {
@@ -6,22 +7,47 @@ export default function PurposePage() {
       <Navbar />
 
       <section className="relative mx-auto max-w-7xl px-6 py-20">
-        <div className="absolute left-[-100px] top-20 h-72 w-72 rounded-full bg-white/10 blur-[140px]" />
+        <div className="absolute left-[-120px] top-20 h-80 w-80 rounded-full bg-white/10 blur-[140px]" />
 
-        <div className="relative z-10 max-w-5xl">
-          <p className="text-sm font-black uppercase tracking-[0.4em] text-gray-500">
-            Philosophy
-          </p>
+        <div className="grid items-center gap-16 lg:grid-cols-[1fr_0.85fr]">
+          <div className="relative z-10">
+            <p className="text-sm font-black uppercase tracking-[0.4em] text-gray-500">
+              Philosophy
+            </p>
 
-          <h1 className="mt-6 text-6xl font-black leading-[0.9] tracking-tight md:text-8xl">
-            Purposeful
-            <br />
-            Training.
-          </h1>
+            <h1 className="mt-6 text-6xl font-black leading-[0.9] tracking-tight md:text-8xl">
+              Purposeful
+              <br />
+              Training.
+            </h1>
 
-          <p className="mt-10 max-w-3xl text-2xl leading-10 text-gray-300">
-            Fitness should improve your life, not become another insecurity.
-          </p>
+            <p className="mt-10 max-w-3xl text-xl leading-10 text-gray-300">
+              Fitness should improve your life, not become another insecurity.
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="relative h-[650px] overflow-hidden rounded-[3rem] border border-white/10 bg-gray-950">
+              <Image
+                src="/philosophy/purpose/purpose.jpg"
+                alt="Purposeful training philosophy"
+                fill
+                className="object-cover"
+              />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+              <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/10 bg-black/50 p-5 backdrop-blur">
+                <p className="text-sm font-black uppercase tracking-[0.3em] text-gray-400">
+                  HatemFit
+                </p>
+
+                <p className="mt-2 text-2xl font-black">
+                  Train for peace, health, and purpose.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
