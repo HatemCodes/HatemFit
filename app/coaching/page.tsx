@@ -1,5 +1,18 @@
 import Navbar from "../components/Navbar";
 
+const clientStories = [
+  {
+    name: "Awab",
+    detail:
+      "Started off hating the gym. After consistent sessions, he started enjoying the process, showing up more confidently, and already has noticeable one-month progress.",
+  },
+  {
+    name: "Abdullah",
+    detail:
+      "Also came in not really liking the gym. Now he gives positive feedback, has fun during sessions, and is building momentum instead of avoiding training.",
+  },
+];
+
 export default function CoachingPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-black text-white">
@@ -42,6 +55,44 @@ export default function CoachingPage() {
               className="rounded-[2rem] border border-white/10 bg-gray-950 p-7"
             >
               <p className="text-xl font-black leading-tight">{item}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 pb-28">
+        <div className="border-y border-white/10 py-16">
+          <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+            Real coaching
+          </p>
+
+          <h2 className="mt-5 max-w-5xl text-4xl font-black leading-tight md:text-6xl">
+            My credibility is not just my physique. I genuinely enjoy helping
+            people start.
+          </h2>
+
+          <p className="mt-8 max-w-3xl text-xl leading-10 text-gray-400">
+            I’m currently coaching two close friends who both used to hate the
+            gym. The goal was not to throw them into extreme routines. It was to
+            help them move, learn, enjoy the sessions, and build consistency.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-2">
+          {clientStories.map((client) => (
+            <div
+              key={client.name}
+              className="rounded-[2.5rem] border border-white/10 bg-gray-950 p-8"
+            >
+              <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+                Client story
+              </p>
+
+              <h3 className="mt-5 text-4xl font-black">{client.name}</h3>
+
+              <p className="mt-6 text-xl leading-9 text-gray-400">
+                {client.detail}
+              </p>
             </div>
           ))}
         </div>
