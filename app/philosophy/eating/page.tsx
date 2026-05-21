@@ -1,4 +1,28 @@
+import Image from "next/image";
 import Navbar from "../../components/Navbar";
+
+const foodImages = [
+  {
+    src: "/philosophy/eating/pancakes.jpg",
+    title: "Comfort food breakfast",
+    text: "High-protein meals that still feel satisfying.",
+  },
+  {
+    src: "/philosophy/eating/chicken.jpg",
+    title: "Homemade meals",
+    text: "Real food, big portions, strong macros, and no misery.",
+  },
+  {
+    src: "/philosophy/eating/creami.jpg",
+    title: "Better desserts",
+    text: "Healthier alternatives that still kill cravings.",
+  },
+  {
+    src: "/philosophy/eating/restaurant.jpg",
+    title: "Real life balance",
+    text: "Restaurants and gatherings are fine when you don’t go ballistic.",
+  },
+];
 
 export default function EatingPage() {
   return (
@@ -33,6 +57,44 @@ export default function EatingPage() {
             <br />
             The goal is balance.
           </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 pb-28">
+        <div className="mb-10 max-w-3xl">
+          <p className="text-sm font-black uppercase tracking-[0.35em] text-gray-500">
+            Food in real life
+          </p>
+
+          <h2 className="mt-5 text-4xl font-black leading-tight md:text-6xl">
+            Healthy food should still feel like food you actually want to eat.
+          </h2>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {foodImages.map((item) => (
+            <div
+              key={item.src}
+              className="group overflow-hidden rounded-[2.5rem] border border-white/10 bg-gray-950"
+            >
+              <div className="relative h-[430px] overflow-hidden">
+                <Image
+                  src={item.src}
+                  alt={item.title}
+                  fill
+                  className="object-cover transition duration-700 group-hover:scale-[1.04]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="text-3xl font-black">{item.title}</h3>
+                  <p className="mt-3 max-w-xl text-lg leading-7 text-gray-300">
+                    {item.text}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
